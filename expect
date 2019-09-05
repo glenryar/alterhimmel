@@ -1,0 +1,7 @@
+#!/usr/bin/expect -f
+
+spawn su
+expect "assword:"
+send "dieFlamme#\r"
+interact 
+
