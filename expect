@@ -1,7 +1,7 @@
 #!/usr/bin/expect -f
 
-spawn su
-expect "assword:"
+spawn sudo ls /var/bacula
+expect "glenr:"
 send "dieFlamme#\r"
-interact 
+interact
 
