@@ -1,0 +1,7 @@
+#!/usr/bin/expect -f
+
+spawn sudo ls /var/bacula
+expect "glenr:"
+send "dieFlamme#\r"
+interact
+
