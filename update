@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "             "
+echo "Here we go"
+echo "             "
+apt update 
+apt dist-upgrade -y
+apt autoremove -y 
+apt clean
+echo "             "
+echo "Aye, mate!"
+echo "             "
+
