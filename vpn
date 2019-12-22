@@ -1,4 +1,0 @@
-#!/bin/bash
-
-sudo openvpn /media/glenr/Data/Soft/vpn.ovpn
-
