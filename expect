@@ -1,7 +1,0 @@
-#!/usr/bin/expect -f
-
-spawn sudo ls /root
-expect "glenr:"
-send "123\r"
-interact
-
