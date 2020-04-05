@@ -1,17 +1,20 @@
 #!/bin/bash
 
-
 echo
-echo "Let's do it"
+echo "Finish him!"
 echo
-sudo apt update
+sudo apt update -y
+echo
+echo "Choose your destiny"
 echo
 sudo apt list --upgradable
-echo
 sleep 3
 sudo apt dist-upgrade -y
+echo
 sudo apt autoremove -y
 echo
-echo "Aha"
+sudo apt clean
+echo
+echo "Mileena wins"
 echo
 

@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo                          
-for i in {190..200} 
+for i in {1..200} 
 do
-ssh 192.168.1.$i 'echo; hostname; echo; ip a | grep "inet 192"; echo'
+sudo nmap -O 192.168.1.$i | grep "192*\|ssh\|ftp"  
 done
 echo                         
 
